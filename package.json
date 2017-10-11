@@ -1,0 +1,42 @@
+{
+  "name": "mongoose-os-rpc",
+  "version": "0.1.0",
+  "description": "Node.js implementation of Mongoose OS' RPC protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petar Georgiev <petar@pgeorgiev.com> (http://www.pgeorgiev.com)",
+  "license": "MIT",
+  "dependencies": {
+    "defaults": "^1.0.3",
+    "dict": "^1.4.0",
+    "mqtt": "^2.13.0",
+    "uuid": "^3.1.0",
+    "ws": "^3.2.0"
+  },
+  "maintainers": [
+    {
+      "name": "Petar",
+      "email": "petar@pgeorgiev.com"
+    }
+  ],
+  "keywords": [
+    "rpc",
+    "mongoose-os",
+    "http",
+    "websocket",
+    "mqtt",
+    "ws",
+    "util",
+    "utility",
+    "esp8266"
+  ],
+  "engines": {
+    "node": ">= 4"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ]
+}
