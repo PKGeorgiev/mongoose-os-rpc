@@ -1,12 +1,15 @@
 {
   "name": "mongoose-os-rpc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js implementation of Mongoose OS' RPC protocol",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Petar Georgiev <petar@pgeorgiev.com> (http://www.pgeorgiev.com)",
+  "author": {
+    "name": "Petar Georgiev (http://www.pgeorgiev.com",
+    "email": "petar@pgeorgiev.com"
+  },
   "license": "MIT",
   "dependencies": {
     "defaults": "^1.0.3",
@@ -39,5 +42,13 @@
   "files": [
     "lib/",
     "index.js"
-  ]
+  ],
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/PKGeorgiev/mongoose-os-rpc"
+  },
+  "bugs": {
+    "url": "https://github.com/PKGeorgiev/mongoose-os-rpc/issues"
+  }
 }
