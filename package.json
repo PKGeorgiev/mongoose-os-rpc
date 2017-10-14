@@ -1,6 +1,6 @@
 {
   "name": "mongoose-os-rpc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js implementation of Mongoose OS' RPC protocol",
   "main": "index.js",
   "scripts": {
