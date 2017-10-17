@@ -151,10 +151,8 @@ Rpc.prototype._timerProc = function() {
       
       // The transport is inactive. Cancel pending requests
       let error = {
-        "error": {
-          "code": 503,
-          "message": "The transport is not active."
-        }
+        "code": 503,
+        "message": "The transport is not active."
       };
       
       process.nextTick(value.callback.bind(this), error, null);
@@ -166,10 +164,8 @@ Rpc.prototype._timerProc = function() {
       
       // Discard requests that had timed out
       let error = {
-        "error": {
-          "code": 408,
-          "message": "Request timed out."
-        }
+        "code": 408,
+        "message": "Request timed out."
       };
       
       process.nextTick(value.callback.bind(this), error, null);

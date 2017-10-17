@@ -24,6 +24,7 @@ The url format is: ws://devideIpOrName/rpc
 ### MQTT
 
 The url format is: mqtt://devideIpOrName/deviceName
+
 This transport requires a client id. If the clientId option was not specified a unique value will be generated.
 The RPC client will then subscribe to client-id/rpc topic, listening for replies.
 
